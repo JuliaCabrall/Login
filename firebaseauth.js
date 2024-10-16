@@ -1,15 +1,15 @@
 // Importa as funções necessárias do Firebase
-import { initializeApp } from "https://www.gstatic.com/firebasejs/10.11.1/firebase-app.js";
-import { getAuth, GoogleAuthProvider, signInWithPopup, signOut, onAuthStateChanged, createUserWithEmailAndPassword, signInWithEmailAndPassword } from "https://www.gstatic.com/firebasejs/10.11.1/firebase-auth.js";
-import { getFirestore, setDoc, doc } from "https://www.gstatic.com/firebasejs/10.11.1/firebase-firestore.js";
+import { initializeApp } from "https://www.gstatic.com/firebasejs/10.14.1/firebase-app.js";
+import { getAuth, GoogleAuthProvider, signInWithPopup, signOut, onAuthStateChanged, createUserWithEmailAndPassword, signInWithEmailAndPassword } from "https://www.gstatic.com/firebasejs/10.14.1/firebase-auth.js";
+import { getFirestore, setDoc, doc } from "https://www.gstatic.com/firebasejs/10.14.1/firebase-firestore.js";
 
 const firebaseConfig = {
-    apiKey: "AIzaSyDbnFzKDe4pDU-uqFHhZQ-ncEt0PG8Le7s",
-    authDomain: "teste-26143.firebaseapp.com",
-    projectId: "teste-26143",
-    storageBucket: "teste-26143.appspot.com",
-    messagingSenderId: "935649966035",
-    appId: "1:935649966035:web:641f8801f8ac636fe5a126"
+    apiKey: "AIzaSyBQcTAzp7ipQT6FEOX0vs2Ymw2JsXG6etA",
+    authDomain: "teste-60b17.firebaseapp.com",
+    projectId: "teste-60b17",
+    storageBucket: "teste-60b17.appspot.com",
+    messagingSenderId: "2691903414",
+    appId: "1:2691903414:web:d48de3af4e1ffba4511b17"
   };
 
 // Inicializa o Firebase
